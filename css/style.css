@@ -74,6 +74,11 @@ body {
     background-color: #dfffe0;
     color: #27ae60;
   }
+  
+  .unknown {
+    background-color: #dfffe0;
+    color: #797c7b;
+  }
 
   .note {
     font-size: 0.95em;
