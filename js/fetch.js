@@ -32,5 +32,5 @@ fetch('https://gist.githubusercontent.com/usefulstuffs/930ca4c5442fcccbb3554276f
       })
       .catch(error => {
         alert('Errore durante il caricamento dei dati, per favore riprova o riporta il problema su GitHub: https://github.com/emmev-code/itis-blocked-sites');
-        console.log('Errore:, error);
+        console.log('Errore:', error);
       });
