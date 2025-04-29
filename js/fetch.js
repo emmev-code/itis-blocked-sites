@@ -1,7 +1,7 @@
 function fetchData() {
   fetch('https://gist.githubusercontent.com/usefulstuffs/930ca4c5442fcccbb3554276f453b35b/raw/blocklist.json', {
     method: 'GET',
-    cache: 'reload'
+    cache: 'no-store'
   })
       .then(response => {
         if (!response.ok) {
