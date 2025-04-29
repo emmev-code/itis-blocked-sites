@@ -1,5 +1,8 @@
 function fetchData() {
-  fetch('https://gist.githubusercontent.com/usefulstuffs/930ca4c5442fcccbb3554276f453b35b/raw/blocklist.json')
+  fetch('https://gist.githubusercontent.com/usefulstuffs/930ca4c5442fcccbb3554276f453b35b/raw/blocklist.json', {
+    method: 'GET',
+    cache: 'reload'
+  })
       .then(response => {
         if (!response.ok) {
           throw new Error('Errore nel caricamento del file JSON');
