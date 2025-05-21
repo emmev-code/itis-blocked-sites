@@ -1,5 +1,5 @@
 function fetchData() {
-  fetch('https://gist.githubusercontent.com/usefulstuffs/930ca4c5442fcccbb3554276f453b35b/raw/blocklist.json', {
+  fetch('https://api.vichingo455.freeddns.org/itisBlocklist.json', {
     method: 'GET',
     cache: 'no-store'
   })
